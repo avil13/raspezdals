@@ -1,0 +1,28 @@
+{
+  "name": "raspezdals-nuxt",
+  "description": "Raspezdals team",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/axios": "5.5.4",
+    "nuxt": "2.8.1",
+    "nuxt-property-decorator": "2.3.0",
+    "ts-node": "8.3.0",
+    "vuex-class": "0.3.2"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "ghpages --path dist",
+    "gh": "npm run generate && npm run deploy"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "2.8.1",
+    "@nuxtjs/vuetify": "^1.0.0-beta.7",
+    "@types/node": "12.6.8",
+    "@types/webpack-env": "1.14.0",
+    "ghpages": "^0.0.10"
+  }
+}
