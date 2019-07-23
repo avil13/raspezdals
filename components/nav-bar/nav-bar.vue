@@ -1,8 +1,8 @@
 <template>
     <div>
-        <v-toolbar app fixed color="primary">
+        <v-toolbar app fixed color="deep-orange deep-orange darken-4">
             <nuxt-link to="/">
-                <v-toolbar-title class="black--text">Ra$pezdal$$</v-toolbar-title>
+                <v-toolbar-title class="white--text">Ra$pezdal$$</v-toolbar-title>
             </nuxt-link>
 
             <v-spacer></v-spacer>
