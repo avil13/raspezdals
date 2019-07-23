@@ -2,7 +2,7 @@
 <div>
     <v-list three-line>
         <list-animated>
-            <div v-for="(item, index) in items" :key="`${index}-${items.length}`">
+            <div v-for="(item, index) in items" :key="index">
                 <v-subheader
                     v-if="item.header"
                 >
