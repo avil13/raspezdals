@@ -3,6 +3,10 @@ const pkg = require('./package')
 module.exports = {
     mode: 'universal',
 
+    generate: {
+        dir: 'docs'
+    },
+
     server: {
         port: 8000, // default: 3000
         host: 'localhost' // default: localhost
