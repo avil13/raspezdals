@@ -6,7 +6,9 @@
         <!-- content -->
         <v-content app>
             <v-container grid-list-md>
-                <nuxt></nuxt>
+                <v-layout row wrap>
+                    <nuxt/>
+                </v-layout>
             </v-container>
         </v-content>
         <!-- /content -->
