@@ -1,0 +1,58 @@
+{
+  "paths": {
+      "~": "."
+  },
+  "defaultSeverity": "warning",
+  "extends": [
+      "tslint:latest",
+      "@kurosame/tslint-config-vue",
+      "tslint-config-prettier"
+  ],
+  "linterOptions": {
+      "exclude": ["node_modules/**", "**/*.js", "dist/**", ".nuxt/**", ".vscode/**", "assets/**", "**/*.spec.ts"]
+  },
+  "rules": {
+      "prettier": [true, ".prettierrc"],
+      "no-submodule-imports": false,
+      "variable-name": [true, "allow-snake-case", "check-format", "allow-leading-underscore", "ban-keywords"],
+      "no-implicit-dependencies": false,
+      "no-bitwise": false,
+      "interface-name": true,
+      "ordered-imports": false,
+      "arrow-return-shorthand": true,
+      "callable-types": true,
+      "class-name": true,
+      "comment-format": [false, "check-space"],
+      "only-arrow-functions": false,
+      "curly": true,
+      "forin": true,
+      "import-blacklist": false,
+      "interface-over-type-literal": true,
+      "label-position": true,
+      "max-line-length": false,
+      "member-access": false,
+      "no-arg": true,
+      "no-any": false,
+      "no-construct": true,
+      "no-debugger": true,
+      "no-duplicate-super": true,
+      "no-empty": false,
+      "no-empty-interface": false,
+      "no-eval": true,
+      "no-misused-new": true,
+      "no-non-null-assertion": true,
+      "no-shadowed-variable": true,
+      "no-string-literal": false,
+      "no-string-throw": true,
+      "no-switch-case-fall-through": true,
+      "no-unnecessary-initializer": true,
+      "no-unused-expression": false,
+      "no-use-before-declare": true,
+      "no-var-keyword": true,
+      "object-literal-sort-keys": false,
+      "radix": true,
+      "triple-equals": [true, "allow-null-check"],
+      "unified-signatures": true,
+      "quotemark": [true, "single", "avoid-escape", "avoid-template"]
+  }
+}
